@@ -1,0 +1,141 @@
+.heatmap-container {
+  display: grid;
+  grid-template-columns: repeat(7, 40px); /* bigger squares */
+  gap: 8px; /* bigger gap */
+  margin: 24px auto 0; /* centered and spaced from streak card */
+  justify-content: center; /* center the grid itself */
+  max-width: 320px; /* optional max width */
+  
+
+}
+
+.heatmap-day {
+   width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  background: #e0e0e0;
+  transition: background 0.25s ease, transform 0.15s ease;
+  display: inline-block;
+  
+}
+
+.heatmap-day.done {
+  background: #4caf50;
+}
+
+.heatmap-day.done:hover {
+  background: #388e3c;
+  transform: scale(1.1);
+}
+
+.heatmap-day:hover {
+  cursor: pointer;
+  background: #bdbdbd;
+}
+
+
+h2 {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #333;
+  
+}
+.freqn{
+    
+    text-align: right;
+    
+    margin-right: 10%;
+    color: #4a90e2;       
+    font-weight: 600;     
+    font-size: 0.95rem;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.3px;
+    margin-top: 0.3rem;
+    user-select: none;    
+}
+
+h2 button{
+  padding: 6px 14px;
+  padding-left: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0e6ecf;
+  background-color: transparent;
+ 
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  user-select: none;
+}
+.info-h{
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 16px;
+}
+.habit-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+  max-width: 320px;
+}
+
+.habit-edit-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.habit-edit-form input,
+.habit-edit-form select {
+  padding: 8px;
+  margin-top: 6px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.save-btn,
+.cancel-btn {
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #388e3c;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  color: #333;
+}
+
+.cancel-btn:hover {
+  background-color: #999;
+}
+.text{
+  margin-left: 45%;
+  
+}

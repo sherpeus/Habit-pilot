@@ -1,0 +1,83 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #107691;
+}
+.select{
+    border: 1px solid #107691;
+    outline: none;
+    border-radius: 15px;
+    position: relative;
+    left:50%;
+    padding:3px;
+    background-color: #01AAA1;
+    color:#fff;
+
+}
+.container{
+    width:100%;
+    margin-bottom: 10px;
+    
+    
+   
+}
+.lefter{
+    left:10%;
+}
+button{
+    width:100px;
+    position: relative;
+    margin-top: 10px;
+    left: 40%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #107691;
+    color:#fff;
+}
+.add-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50; /* green or your theme */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.add-btn:hover {
+  transform: scale(1.1);
+}
+
+.add-btn i {
+  pointer-events: none;
+}
+
+.add-btn{
+    background-color: #fff;
+    color:#053564;
+    left:96%;
+    margin-top:10%;
+    
+    
+}
+.add-btn span{
+    
+    font-size: 30px;
+    font-weight: bolder;
+
+}
